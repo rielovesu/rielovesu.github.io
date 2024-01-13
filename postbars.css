@@ -6,7 +6,7 @@
 .bar4 {width: 25px; height: 97px; background-color: var(--bar4); float: left; margin-left: 10px;}
 .bar5 {width: 25px; height: 97px; background-color: var(--bar5); float: left; margin-left: 10px;}
 
-.barstitle {width: 213px; height: 87px; float: right; font-family: 'Open Sans Condensed', sans-serif; font-size: 12px; color: var(--title); text-transform: uppercase; letter-spacing: 3px; text-align: justify;  line-height: 900%; margin-top: 5px; margin-right: 10px; display: flex; justify-content: center; align-items: center;}
+.barstitle {width: 213px; height: 87px; float: right; font-family: 'Open Sans Condensed', sans-serif; font-size: 12px; color: var(--title); text-transform: uppercase; letter-spacing: 3px; text-align: justify;  line-height: 90%; margin-top: 5px; margin-right: 10px; display: flex; justify-content: center; align-items: center;}
 
 .barslinetop {border-top: 3px solid var(--bar1); border-right: 3px solid var(--bar1); height: 180px; width: 397px; float: right; position: absolute; margin-top: 97px; margin-left: 110px;}
 
