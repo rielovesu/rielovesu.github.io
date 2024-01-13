@@ -1,0 +1,32 @@
+.barsimg {width: 100px; height: 100px; background-image: var(--barsimg); background-size: cover; float: left;}
+
+.bar1 {width: 25px; height: 97px; background-color: var(--bar1); float: left; margin-left: 10px;}
+.bar2 {width: 25px; height: 97px; background-color: var(--bar2); float: left; margin-left: 10px;}
+.bar3 {width: 25px; height: 97px; background-color: var(--bar3); float: left; margin-left: 10px;}
+.bar4 {width: 25px; height: 97px; background-color: var(--bar4); float: left; margin-left: 10px;}
+.bar5 {width: 25px; height: 97px; background-color: var(--bar5); float: left; margin-left: 10px;}
+
+.barstitle {width: 213px; height: 87px; float: right; font-family: 'Open Sans Condensed', sans-serif; font-size: 30px; color: var(--title); text-transform: uppercase; letter-spacing: 3px; text-align: center;  line-height: 100%; margin-top: 5px; margin-right: 10px; display: flex; justify-content: center; align-items: center;}
+
+.barslinetop {border-top: 3px solid var(--bar1); border-right: 3px solid var(--bar1); height: 180px; width: 397px; float: right; position: absolute; margin-top: 97px; margin-left: 110px;}
+
+.barscontent {width: 460px; height: 466px; padding: 10px; font-family: 'Open Sans Condensed', sans-serif; font-size: 16px; color: #0f252f; text-align: justify; position: relative; overflow-y: scroll; overscroll-behavior-y: contain;}
+.barscontent b {font-family: 'Open Sans Condensed', sans-serif; font-size: 16px; font-weight:bold; color: var(--bold) !important;}
+.barscontent::-webkit-scrollbar {display: none; }
+
+.barslinelow {border-bottom: 3px solid var(--bar1); border-left: 3px solid var(--bar1); height: 180px; width: 395px; pointer-events: none;  position: relative; margin-left: -112px; margin-top: -165px; }
+
+.barstag {width: 213px; height: 80px; float: left; padding: 10px; display: flex; justify-content: center; align-items: center;}
+
+.barstagtxt {font-family: 'Open Sans Condensed', sans-serif; font-size: 12px; color: #0f252f; text-transform: uppercase; text-align: justify; letter-spacing: 3px; line-height: 100%;}
+.barstagtxt a:link, .barstag a:active, .barstag a:visited, .barstag a:hover { font-family: 'Open Sans Condensed', sans-serif; font-size:12px; color: var(--box1); } 
+
+.bar6 {width: 25px; height: 97px; background-color: var(--bar5); float: left; margin-right: 10px;}
+.bar7 {width: 25px; height: 97px; background-color: var(--bar4); float: left; margin-right: 10px;}
+.bar8 {width: 25px; height: 97px; background-color: var(--bar3); float: left; margin-right: 10px;}
+.bar9 {width: 25px; height: 97px; background-color: var(--bar2); float: left; margin-right: 10px;}
+.bar0 {width: 25px; height: 97px; background-color: var(--bar1); float: left; margin-right: 10px;}
+
+.barsbox {width: 100px; height: 100px; background-color: var(--bar1); float: right; margin-top: -3px;}
+
+.riesig, .riesig a:link, .riesig a:active, .riesig a:visited, .riesig a:hover {width: 510px; min-height: 5px; font-size: 10px; color: #9079a3; }
