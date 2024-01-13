@@ -1,0 +1,40 @@
+.barstimg {width: 100px; height: 100px; background-image: var(--barsimg); background-size: cover; float: left;}
+
+.bart1 {width: 25px; height: 97px; background-color: var(--bar1); float: left; margin-left: 10px;}
+.bart2 {width: 25px; height: 97px; background-color: var(--bar2); float: left; margin-left: 10px;}
+.bart3 {width: 25px; height: 97px; background-color: var(--bar3); float: left; margin-left: 10px;}
+.bart4 {width: 25px; height: 97px; background-color: var(--bar4); float: left; margin-left: 10px;}
+.bart5 {width: 25px; height: 97px; background-color: var(--bar5); float: left; margin-left: 10px;}
+
+.barsttitle {width: 213px; height: 87px; float: right; font-family: 'Open Sans Condensed', sans-serif; font-size: 30px; color: var(--title); text-transform: uppercase; letter-spacing: 3px; text-align: center;  line-height: 100%; margin-top: 5px; margin-right: 10px; display: flex; justify-content: center; align-items: center;}
+
+.barstlinetop {border-top: 3px solid var(--bar1); border-right: 3px solid var(--bar1); height: 180px; width: 398px; float: right; position: absolute; margin-top: 97px; margin-left: 110px;}
+
+.barstcontent {width: 460px; height: 266px; padding: 10px; font-family: 'Open Sans Condensed', sans-serif; font-size: 13px; color: #0f252f; text-align: center; position: relative; overflow-y: scroll; overscroll-behavior-y: contain;}
+.barstcontent b {font-family: 'Open Sans Condensed', sans-serif; font-size: 13px; font-weight:bold; color: var(--bold) !important;}
+.barstcontent a:link, .barstcontent a:active, .barstcontent a:visited, .barstcontent a:hover {font-family: 'Open Sans Condensed', sans-serif; font-size: 13px; color: #0f252f; text-align: center;}
+.barstcontent h8, .barstcontent h8 a:link, .barstcontent h8 a:active, .barstcontent h8 a:hover {font-family: 'Open Sans Condensed', sans-serif; font-size: 18px; color: var(--box1); text-align: center; text-decoration: underline;}
+.barstcontent::-webkit-scrollbar {display: none; }
+.barstcontent a:before {content: "| ";}
+.barstcontent a:after {content: " |";}
+.barstcontent h8 a:before {content: none;}
+.barstcontent h8 a:after {content: var(--identity);}
+
+.barstlinelow {border-bottom: 3px solid var(--bar1); border-left: 3px solid var(--bar1); height: 180px; width: 396px; pointer-events: none;  position: relative; margin-left: -112px; margin-top: -165px; }
+
+.barstnotes {width: 213px; height: 80px; float: left; padding: 10px; display: flex; justify-content: center; align-items: center;}
+
+.barstnotestxt {font-family: 'Open Sans Condensed', sans-serif; font-size: 12px; color: #0f252f; text-align: justify; letter-spacing: 0px; line-height: 100%;}
+.barstnotestxt a:link, .barsttag a:active, .barsttag a:visited, .barsttag a:hover { font-family: 'Open Sans Condensed', sans-serif; font-size:12px; color: var(--box1); text-transform: uppercase;} 
+.barstnotestxt a:after {content: " |";}
+.barstnotestxt a:before {content: "- ";}
+
+.bart6 {width: 25px; height: 97px; background-color: var(--bar5); float: left; margin-right: 10px;}
+.bart7 {width: 25px; height: 97px; background-color: var(--bar4); float: left; margin-right: 10px;}
+.bart8 {width: 25px; height: 97px; background-color: var(--bar3); float: left; margin-right: 10px;}
+.bart9 {width: 25px; height: 97px; background-color: var(--bar2); float: left; margin-right: 10px;}
+.bart0 {width: 25px; height: 97px; background-color: var(--bar1); float: left; margin-right: 10px;}
+
+.barstbox {width: 100px; height: 100px; background-color: var(--bar1); float: right; margin-top: -3px;}
+
+.riesig, .riesig a:link, .riesig a:active, .riesig a:visited, .riesig a:hover {width: 510px; min-height: 5px; font-size: 10px; color: #9079a3; }
