@@ -23,6 +23,6 @@
 
 .dottietextbox::-webkit-scrollbar { width: 5px; }
 .dottietextbox::-webkit-scrollbar-track { background: none; width: 5px; }
-.dottietextbox::-webkit-scrollbar-thumb { background: var(--dot1); width: 5px }
+.dottietextbox::-webkit-scrollbar-thumb { background: var(--dot3); width: 5px }
 
 .riesig {width: 550px; min-height: 5px; font-size: 10px; color: #bfafdd !important; text-align: center; }
